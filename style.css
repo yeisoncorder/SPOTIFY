@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background: rgb(144,40,43);
+    background: linear-gradient(180deg, rgba(144,40,43,0.9891554033722865) 10%, rgba(210,9,9,1) 40%, rgba(255,47,47,1) 57%, rgba(226,5,5,1) 68%, rgba(213,1,8,1) 81%, rgba(47,44,35,1) 98%);
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.nombre-playlist{
+    display: flex;
+    align-items: flex-end;
+}
+.foto{
+    margin-top: -10px;
+    width: 250px;
+    height:300px;
+}
+
+.info-playlist{
+    margin-left: 40px;
+    color:rgb(240, 228, 228)
+}
+.lista-titulos{
+    margin:5px;
+    display: flex;
+    list-style-type:none;
+    justify-content: space-around;
+    border: 1px rgb(255, 250, 250) solid;
+    color: rgb(240, 240, 240);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.lista-titulos li{
+    font-size: 20px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.nombres{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+.diles{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.img-numero{
+    margin: 20px;
+}
+.nombre-cancion{
+    font-size: 15px;
+    margin-left: 30px;
+    width: 200px;
+}
+.album{
+    font-size: 15px;
+    margin-left: 70px;
+    width: 200px;
+}
+.agregado{
+    font-size: 20px;
+    margin-left: 150px;
+}
+.tiempo{
+    font-size: 20px;
+    margin-left: 290px;
+}
+
+.ft1{
+    width: 100px;
+}
+.tiempo2{
+    margin-left: 220px;
+    font-size: 20px;
+}
+.tiempo3{
+    margin-left: 270px;
+    font-size: 20px;
+}
+.tiempo4{
+    margin-left:240px;
+    font-size: 20px;
+}
+.tiempo5{
+    margin-left: 280px;
+    font-size: 20px;
+}
+.ft2{
+    width: 100px;
+    height: 85px;
+}
+.ft3{
+    border-radius: 100%;
+    width: 40px;
+    height: 50px;
+}
+.bajar p{
+    width: 700px;
+    height: 800px;
+    margin-left: 94px;
+    margin-top: -36px;
+}
